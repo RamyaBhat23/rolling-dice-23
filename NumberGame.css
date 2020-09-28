@@ -1,0 +1,86 @@
+.disable {
+    opacity: 0.50;
+    cursor: not-allowed;
+}
+
+.enable {
+    opacity: 1;
+    cursor: auto;
+}
+
+#main {
+    border: rgba(5, 43, 49, 0.50) 1px solid;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(105, 229, 233, 0.50);
+    color: rgb(5, 43, 49);
+    font-family: cursive;
+    font-size: 16pt;
+}
+
+#winner {
+    border: rgba(5, 43, 49, 0.50) 1px solid;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(105, 229, 233, 0.50);
+}
+
+#result {
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(5, 43, 49, 0.50);
+    transform: translate(-50%, -50%);
+    border: rgb(226, 254, 255) 1px solid;
+    font-size: 24pt;
+    color: rgb(226, 254, 255);
+    font-family: cursive;
+    padding: 10px 20px;
+    /*top left*/
+}
+
+#welcome {
+    text-align: center;
+}
+
+#player1,
+#player2 {
+    border: rgb(226, 254, 255) 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgb(226, 254, 255);
+    background-color: rgba(5, 43, 49, 0.50);
+    font-family: cursive;
+    height: 80px;
+    width: 150px;
+}
+
+#player1 {
+    margin-left: 100px;
+}
+
+#player2 {
+    margin-left: 94px;
+}
+
+#p1,
+#p2 {
+    position: relative;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    border: rgb(5, 43, 49) 1px solid;
+    color: rgb(5, 43, 49);
+    font-family: cursive;
+}

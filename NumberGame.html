@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="NumberGame.css">
+    <script src="NumberGame.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <p id="welcome">Welcome to NumberGame</p>
+        <div id="player1">
+            <div>
+                <button id="p1" onclick="click1()">Player1</button>
+            </div>
+            <span>Score:</span>
+            <span id="total1">0</span>
+        </div>
+        <div id="player2">
+            <div>
+                <button id="p2" onclick="click2()">Player2</button>
+            </div>
+            <span>Score:</span>
+            <span id="total2">0</span>
+        </div>
+    </div>
+    <div id="winner" style="display: none;">
+        <div id="result"></div>
+    </div>
+</body>
+
+</html>
